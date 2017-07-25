@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8332BD11F1DA4A700E48846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8332BD01F1DA4A700E48846 /* main.m */; };
+		C8332BD41F1DA4A700E48846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8332BD31F1DA4A700E48846 /* AppDelegate.m */; };
+		C8332BD71F1DA4A700E48846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8332BD61F1DA4A700E48846 /* ViewController.m */; };
+		C8332BDC1F1DA4A700E48846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8332BDB1F1DA4A700E48846 /* Assets.xcassets */; };
+		C8332BE81F1DA67C00E48846 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8332BE71F1DA67C00E48846 /* LocalAuthentication.framework */; };
+		C8332BEB1F1DB3E900E48846 /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8332BEA1F1DB3E900E48846 /* AccountManager.m */; };
+		C8332BEF1F1DB99C00E48846 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8332BED1F1DB99C00E48846 /* TouchIDViewController.m */; };
+		C8332BF01F1DB99C00E48846 /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8332BEE1F1DB99C00E48846 /* TouchIDViewController.xib */; };
+		C8332BF21F1DB9F400E48846 /* touchid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8332BF11F1DB9F400E48846 /* touchid@2x.png */; };
+		C8332BF81F1DDF0800E48846 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8332BF71F1DDF0800E48846 /* ViewController.xib */; };
+		C8332C1F1F1DE3F600E48846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8332C1E1F1DE3F600E48846 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8332BCC1F1DA4A700E48846 /* Fingerprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fingerprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8332BD01F1DA4A700E48846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8332BD21F1DA4A700E48846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8332BD31F1DA4A700E48846 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8332BD51F1DA4A700E48846 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8332BD61F1DA4A700E48846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8332BDB1F1DA4A700E48846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8332BE01F1DA4A700E48846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8332BE71F1DA67C00E48846 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		C8332BE91F1DB3E900E48846 /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		C8332BEA1F1DB3E900E48846 /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		C8332BEC1F1DB99C00E48846 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		C8332BED1F1DB99C00E48846 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		C8332BEE1F1DB99C00E48846 /* TouchIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchIDViewController.xib; sourceTree = "<group>"; };
+		C8332BF11F1DB9F400E48846 /* touchid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touchid@2x.png"; sourceTree = "<group>"; };
+		C8332BF71F1DDF0800E48846 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C8332C1E1F1DE3F600E48846 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8332BC91F1DA4A700E48846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8332BE81F1DA67C00E48846 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8332BC31F1DA4A700E48846 = {
+			isa = PBXGroup;
+			children = (
+				C8332BCE1F1DA4A700E48846 /* Fingerprint */,
+				C8332BCD1F1DA4A700E48846 /* Products */,
+				C8332BE61F1DA67C00E48846 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8332BCD1F1DA4A700E48846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8332BCC1F1DA4A700E48846 /* Fingerprint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8332BCE1F1DA4A700E48846 /* Fingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				C8332BD21F1DA4A700E48846 /* AppDelegate.h */,
+				C8332BD31F1DA4A700E48846 /* AppDelegate.m */,
+				C8332BE91F1DB3E900E48846 /* AccountManager.h */,
+				C8332BEA1F1DB3E900E48846 /* AccountManager.m */,
+				C8332BD51F1DA4A700E48846 /* ViewController.h */,
+				C8332BD61F1DA4A700E48846 /* ViewController.m */,
+				C8332BF71F1DDF0800E48846 /* ViewController.xib */,
+				C8332BEC1F1DB99C00E48846 /* TouchIDViewController.h */,
+				C8332BED1F1DB99C00E48846 /* TouchIDViewController.m */,
+				C8332BEE1F1DB99C00E48846 /* TouchIDViewController.xib */,
+				C8332BDB1F1DA4A700E48846 /* Assets.xcassets */,
+				C8332C1E1F1DE3F600E48846 /* LaunchScreen.storyboard */,
+				C8332BCF1F1DA4A700E48846 /* Supporting Files */,
+			);
+			path = Fingerprint;
+			sourceTree = "<group>";
+		};
+		C8332BCF1F1DA4A700E48846 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8332BF11F1DB9F400E48846 /* touchid@2x.png */,
+				C8332BD01F1DA4A700E48846 /* main.m */,
+				C8332BE01F1DA4A700E48846 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8332BE61F1DA67C00E48846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8332BE71F1DA67C00E48846 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8332BCB1F1DA4A700E48846 /* Fingerprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8332BE31F1DA4A700E48846 /* Build configuration list for PBXNativeTarget "Fingerprint" */;
+			buildPhases = (
+				C8332BC81F1DA4A700E48846 /* Sources */,
+				C8332BC91F1DA4A700E48846 /* Frameworks */,
+				C8332BCA1F1DA4A700E48846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fingerprint;
+			productName = Fingerprint;
+			productReference = C8332BCC1F1DA4A700E48846 /* Fingerprint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8332BC41F1DA4A700E48846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "玩乐购";
+				TargetAttributes = {
+					C8332BCB1F1DA4A700E48846 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q9SRP8ETJT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C8332BC71F1DA4A700E48846 /* Build configuration list for PBXProject "Fingerprint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8332BC31F1DA4A700E48846;
+			productRefGroup = C8332BCD1F1DA4A700E48846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8332BCB1F1DA4A700E48846 /* Fingerprint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8332BCA1F1DA4A700E48846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8332BF21F1DB9F400E48846 /* touchid@2x.png in Resources */,
+				C8332BF01F1DB99C00E48846 /* TouchIDViewController.xib in Resources */,
+				C8332BF81F1DDF0800E48846 /* ViewController.xib in Resources */,
+				C8332C1F1F1DE3F600E48846 /* LaunchScreen.storyboard in Resources */,
+				C8332BDC1F1DA4A700E48846 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8332BC81F1DA4A700E48846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8332BD71F1DA4A700E48846 /* ViewController.m in Sources */,
+				C8332BD41F1DA4A700E48846 /* AppDelegate.m in Sources */,
+				C8332BD11F1DA4A700E48846 /* main.m in Sources */,
+				C8332BEF1F1DB99C00E48846 /* TouchIDViewController.m in Sources */,
+				C8332BEB1F1DB3E900E48846 /* AccountManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8332BE11F1DA4A700E48846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8332BE21F1DA4A700E48846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8332BE41F1DA4A700E48846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Q9SRP8ETJT;
+				INFOPLIST_FILE = Fingerprint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlg.Fingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8332BE51F1DA4A700E48846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Q9SRP8ETJT;
+				INFOPLIST_FILE = Fingerprint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlg.Fingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8332BC71F1DA4A700E48846 /* Build configuration list for PBXProject "Fingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8332BE11F1DA4A700E48846 /* Debug */,
+				C8332BE21F1DA4A700E48846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8332BE31F1DA4A700E48846 /* Build configuration list for PBXNativeTarget "Fingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8332BE41F1DA4A700E48846 /* Debug */,
+				C8332BE51F1DA4A700E48846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8332BC41F1DA4A700E48846 /* Project object */;
+}
